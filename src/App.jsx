@@ -13,6 +13,9 @@ function App() {
     <nav>
       <ul>
         <li>
+          <Link to='profile/olive_oil' >Olive Oil</Link>
+        </li>
+        <li>
           <Link to='profile/default' >Default</Link>
         </li>
         <li>           
@@ -21,7 +24,14 @@ function App() {
         <li>
           <Link to='/profile/spinach'>Spinach</Link>
         </li>
+       
+
+        <li>
         <Link to='/profile/popeye'>Popeye</Link>
+        </li>
+        <li>
+          <Profile />
+        </li>
       </ul>
     </nav>
   </div>
